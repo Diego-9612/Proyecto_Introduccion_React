@@ -1,9 +1,10 @@
-function TodoCreateButton(){
-    return(
-        <div>
-            <button>Create tareas</button>
-        </div>
+import './CreateTodoButton.css';
+
+function TodoCreateButton() {
+    return (
+
+        <button className="TodoCreateButton">+</button>
     );
 }
 
-export {TodoCreateButton};
+export { TodoCreateButton };
